@@ -1,0 +1,30 @@
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+}
+
+nav {
+  background: #a7ffeb;
+}
+
+main {
+  background: #84ffff;
+}
+
+#sidebar {
+  background: #18ffff;
+}
+
+#content1 {
+  background: #6fffd2;
+}
+
+#content2 {
+  background: #64ffda;
+}
+
+#content3 {
+  background: #73ffba;
+}
